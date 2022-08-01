@@ -28,7 +28,6 @@ public class RandomPasswordGenerator {
 
             if ( length >50 || length < 8){
                 System.out.println("Invalid entry");
-                System.out.println("Please enter a digit between 8 and 50");
                 return checkLength();
             }
             else{
